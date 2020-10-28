@@ -1,0 +1,176 @@
+<svg fill="none" viewBox="0 0 800 600" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				.avatar {
+					position: absolute;
+					margin-top: 24px;
+					margin-left: 160px;
+				}
+
+				.wrapper {
+					background-color: #0A0E14;
+					width: 100%;
+					height: 100%;
+				}
+
+				.banner {
+					text-align: center;
+					padding-top: 15px;
+					height: 90px;
+				}
+
+				.links {
+					font-family: "Segoe UI";
+					text-align: center;
+				}
+
+				.content {
+					padding: 1em;
+					font-family: "Segoe UI";
+					color: rgba(255, 255, 255, 0.8);
+				}
+
+				hl {
+					color: #ec008c;
+				}
+
+				.center {
+					text-align: center;
+				}
+
+				.small {
+					font-size: 0.8em;
+				}
+
+				a {
+					color: #00aeef;
+					transition-delay: 0.5s;
+					transition: 0.3s;
+				}
+
+				a:hover {
+					transition-delay: 0.5s;
+					transition: 0.3s;
+					color: #ec008c;
+				}
+
+				.link-wrapper {
+					margin-top: 0;
+					position: relative;
+					width: 160px;
+					height: 40px;
+					display: inline-block;
+					border-radius: 3px;
+					margin-left: 5px;
+					margin-right: 5px
+				}
+
+				.link-wrapper:hover #shape {
+					color: #ec008c;
+					stroke-dasharray: 100 0;
+					stroke-width: 3px;
+					stroke-dashoffset: 0;
+					stroke: #ec008c;
+				}
+
+				.link-wrapper #shape {
+					stroke-width: 6px;
+					fill: transparent;
+					stroke: #00aeef;
+					stroke-dasharray: 118 400;
+					stroke-dashoffset: -220;
+					transition: 1s all ease;
+				}
+
+				.link-wrapper #text {
+					margin-top: -35px;
+					text-align: center;
+				}
+
+				.link-wrapper #text a {
+					color: #00aeef;
+					text-decoration: none;
+					font-weight: 300;
+					font-size: 1.1em;
+					transition-delay: 0.5s;
+					transition: 0.3s;
+				}
+
+				.link-wrapper #text a:hover {
+					transition-delay: 0.5s;
+					transition: 0.3s;
+					color: #ec008c;
+				}
+			</style>
+			<div class="wrapper">
+				<img class="avatar" src="https://avatars1.githubusercontent.com/u/2692729?s=74" />
+				<!-- avail text -->
+				<div class="banner">
+					<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin">
+						<defs><style> .letter { fill: #00aeef; } </style></defs>
+						<path class="letter" d="M89.48,72.12v33.27H79.84V96.75a19.78,19.78,0,0,1-7.73,7.68,23.88,23.88,0,0,1-11.32,2.47q-8.91,0-14.22-5T41.26,88.42q0-9.73,6.53-14.79t19.19-5H79.84V67.07q0-7-3.54-10.13T65.16,53.79a36.3,36.3,0,0,0-9.89,1.41,43.36,43.36,0,0,0-9.74,4.11V49.73a66.21,66.21,0,0,1,10.18-3,46,46,0,0,1,9.45-1,32,32,0,0,1,12.37,2.14,19.43,19.43,0,0,1,8.3,6.4,16.1,16.1,0,0,1,2.81,6.43A57.89,57.89,0,0,1,89.48,72.12Zm-18.59,4H67.71q-8.38,0-12.63,2.94t-4.24,8.77q0,5.26,3.18,8.18c2.11,1.94,5,2.91,8.8,2.91q7.91,0,12.44-5.49t4.58-15.18V76.08Z" transform="translate(-41.26 -24.37)" />
+					    <path class="letter" d="M103.74,47.08h10L130.61,96l17-48.94h9.94l-20.72,58.31H124.47Z" transform="translate(-41.26 -24.37)" />
+					    <path class="letter" d="M217.88,72.12v33.27h-9.63V96.75a19.8,19.8,0,0,1-7.74,7.68,23.85,23.85,0,0,1-11.32,2.47q-8.91,0-14.22-5t-5.31-13.46q0-9.73,6.54-14.79t19.18-5h12.87V67.07q-.06-7-3.54-10.13t-11.15-3.15a36.3,36.3,0,0,0-9.89,1.41,43.55,43.55,0,0,0-9.74,4.11V49.73a66.54,66.54,0,0,1,10.18-3,46.11,46.11,0,0,1,9.45-1,32,32,0,0,1,12.37,2.14,19.31,19.31,0,0,1,8.3,6.4,16.25,16.25,0,0,1,2.82,6.43A58.83,58.83,0,0,1,217.88,72.12Zm-18.59,4h-3.18q-8.38,0-12.62,2.94t-4.25,8.77q0,5.26,3.18,8.18t8.8,2.91q7.92,0,12.44-5.49t4.59-15.18V76.08Z" transform="translate(-41.26 -24.37)" />
+					    <path class="letter" d="M243.39,47.28h24.53V98h19v7.44H239.33V98h19V54.73H243.39Zm14.09-11.16a6.9,6.9,0,0,1,0-9.74,6.88,6.88,0,0,1,11.74,4.87,6.89,6.89,0,0,1-11.74,4.87Z" transform="translate(-41.26 -24.37)" />
+					    <path class="letter" d="M310.93,25h19.78V97.9h10.21l.21,7.49H309.47l.21-7.29h10.2l.21-65.6h-9.16Z" transform="translate(-41.26 -24.37)" />
+					</svg>
+				</div>
+
+				<!-- buttons -->
+				<div class="links">
+					<div class="link-wrapper">
+						<svg height="40" width="160" xmlns="http://www.w3.org/2000/svg">
+							<rect id="shape" height="40" width="160" />
+						</svg>
+						<div id="text">
+							<a href="https://t.me/snowfallen"><span class="spot"></span>TELEGRAM</a>
+						</div>
+					</div>
+
+					<div class="link-wrapper">
+						<svg height="40" width="160" xmlns="http://www.w3.org/2000/svg">
+							<rect id="shape" height="40" width="160" />
+						</svg>
+						<div id="text">
+							<a href="https://discord.gg/sHzBSSp"><span class="spot"></span>DISCORD</a>
+						</div>
+					</div>
+
+					<div class="link-wrapper">
+						<svg height="40" width="160" xmlns="http://www.w3.org/2000/svg">
+							<rect id="shape" height="40" width="160" />
+						</svg>
+						<div id="text">
+							<a href="https://twitter.com/4vail"><span class="spot"></span>TWITTER</a>
+						</div>
+					</div>
+
+					<div class="link-wrapper">
+						<svg height="40" width="160" xmlns="http://www.w3.org/2000/svg">
+							<rect id="shape" height="40" width="160" />
+						</svg>
+						<div id="text">
+							<a href="https://twitch.tv/catgirlsaresexy"><span class="spot"></span>TWITCH</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- text stuff -->
+				<div class="content">
+					<p class="small center"><hl>if you wish to click any of these links please click the svg (i suggest you do, they have cool styling c:)</hl></p>
+					<p><a href="https://youtu.be/2DjHOcaR-uc?t=123" target="_blank">Hello there</a>, I'm <hl>avail</hl>.</p>
+					<p>I mostly develop <hl>C#</hl> applications, but I am also fairly versed in <hl>PHP</hl> and <hl>Node.js/JavaScript</hl>, and am currently trying to get better at <hl>C/C++</hl>.<br />
+					I'm very interested in <hl>reverse engineering</hl>, and <hl>developing game user interfaces</hl> and <hl>hacking Unity games</hl>.</p>
+					<p>Lately I've been working with <a href="https://github.com/rxyyy">rx</a> on <hl>NFSCO</hl>, a Need For Speed Carbon online multiplayer project.</p>
+					<p>I have contributed <hl>{{ contributions_count }}</hl> commits to various repositories over the past year.<br />
+					I have <hl>{{ repos_total }}</hl> repositories ({{ repos_private }} private) and <hl>{{ gists_total }}</hl> gists ({{ gists_private }} private)</p>
+
+					<p>If you wish to contact me, you can find me on telegram <hl>@snowfallen</hl> or mail me at <hl>avail@pomf.se</hl></p>
+					<p>Profile visits: <hl>{{ visitors }}</hl> - thanks for visiting!</p>
+					<p class="small center">the backend for this readme is available at <a href="https://github.com/avail/readme-backend">avail/readme-backend</a></p>
+				</div>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
