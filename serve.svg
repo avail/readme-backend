@@ -2,12 +2,6 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-				.avatar {
-					position: absolute;
-					margin-top: 24px;
-					margin-left: 160px;
-				}
-
 				.wrapper {
 					background-color: #0A0E14;
 					width: 100%;
@@ -104,7 +98,6 @@
 				}
 			</style>
 			<div class="wrapper">
-				<img class="avatar" src="https://avatars1.githubusercontent.com/u/2692729?s=74" />
 				<!-- avail text -->
 				<div class="banner">
 					<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin">
