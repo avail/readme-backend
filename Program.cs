@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
@@ -7,12 +8,11 @@ namespace backend
     {
         public static void Main(string[] args)
         {
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(b =>
-                {
-                    b.UseStartup<Startup>();
-                }
-            ).Build().Run();
+            WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .UseUrls("http://0.0.0.0:7477")
+                .Build()
+                .Run();
         }            
     }
 }
